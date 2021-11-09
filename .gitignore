@@ -1,5 +1,5 @@
-*/terraform.tfvars
-*/terraform.tfstate.backup
-*/.terraform
+*terraform.tfvars
+*terraform.tfstate.backup
+*.terraform
 *terraform.tfstate
 *bianca-tf.pem
