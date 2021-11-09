@@ -1,5 +1,5 @@
 */terraform.tfvars
 */terraform.tfstate.backup
 */.terraform
-dev/app-1/terraform.tfstate
-modules/aws/compute/bianca-tf.pem
+*terraform.tfstate
+*bianca-tf.pem
