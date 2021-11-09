@@ -1,13 +1,11 @@
 provider "aws" {
+  access_key = var.AWS_ACCESS_KEY
+  secret_key = var.AWS_SECRET_KEY
   region  = "us-east-1"
-  profile = "parrieta"
 
   default_tags {
     tags = {
-      env            = "ac-xl-ago",
-      "cost:env"     = "academy",
-      "cost:project" = "ac-xl-ago"
-      "owner"        = "pedro.arrieta"
+      "owner"        = "bianca.torres"
       "from"         = "terraform"
     }
   }
