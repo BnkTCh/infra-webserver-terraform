@@ -1,6 +1,6 @@
 *terraform.tfvars
 *terraform.tfstate.backup
-*.terraform
+*.terraform*
 *terraform.tfstate
 *bianca-tf.pem
 *.DS_Store
