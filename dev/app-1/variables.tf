@@ -1,6 +1,6 @@
 variable "key_name" {
 description = "Key name for SSH into EC2"
-default = "bianca-tf"
+default = "lenovo-bnk"
 }
 
 variable "AWS_ACCESS_KEY" {
